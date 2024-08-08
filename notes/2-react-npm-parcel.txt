@@ -1,0 +1,28 @@
+// npm packages the node packages but does not stand for node package manager.
+
+// package.json consists all the packages
+
+// ^ (caret) and ~(tilde) in package.json version has its own significance
+
+// npm manages the package but npx executes the package.
+
+## Parcel package
+    - Dev Build
+    - Local server
+    - HMR (Hot module replacement) - automatically refreshes the content on webpage using the file watching algorithm (written in C++)
+    - Caching - Faster builds - created .parcel-cache files
+    - Image optimization
+    - Minification
+    - Bundling of files
+    - Compression of files
+    - Consistent hashing
+    - Code splitting
+    - Differential bundling : to support older browser
+    - Diagnostics
+    - Tree Shaking - remove unused codes
+
+
+// npx parcel build index.html creates the production ready files (bundled and optimized in dist folder)
+
+// using browserlists package, one can define the coverage of browsers allowed, that needs to be configured in package.json
+

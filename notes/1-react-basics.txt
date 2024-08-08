@@ -1,10 +1,7 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-
 const nestedElement = React.createElement('div', {'id': 'parent'},
     [
         React.createElement('div', {'id': 'child'}, 
-        [React.createElement('h1', {'id': 'heading'}, 'This is Namaste React'),
+        [React.createElement('h1', {'id': 'heading'}, 'I am a heading'),
         React.createElement('h2', {'id': 'heading2'}, 'I am a heading 2')] 
         ),
         React.createElement('div', {'id': 'child2'}, 
@@ -14,8 +11,11 @@ const nestedElement = React.createElement('div', {'id': 'parent'},
     ]  
 );
 
+// nestedElement is a react object and not any HTML element
 console.log(nestedElement);
+
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
+// render replaces the DOM content
 root.render(nestedElement);
