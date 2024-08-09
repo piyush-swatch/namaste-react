@@ -1,0 +1,25 @@
+# npx parcel index.html
+# script configuration in package.json -> start and build
+
+
+## JSX - introduced to make code less clumsy, looks syntactically similar to HTML but not HTML or XML
+## JSX is not a valid JS and wont be understandable by JS engine, so JSX is transpiled by Parcel (using Babel) before catering to browser.
+
+## Babel is a javscript compiler, responsible for converting JSX to ReactElement object.
+
+## JSX doesnt have class, it has className attributes which gets transpiled to class.
+
+
+## React Component are of two types :
+    - Functional component (NEW)
+    - Class based component (OLD)
+
+##  Component composition : 
+    - Using one react component inside another using <ABC /> tag
+
+## Using javacsript statement in JSX
+{} can be used inside JSX to use it as javascript statement    
+
+
+
+ 
